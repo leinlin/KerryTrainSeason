@@ -43,7 +43,7 @@ Shader "MyShaderTrain/Rim"
 		{
 			Blend SrcAlpha OneMinusSrcAlpha
 			Cull [_CullMode]
-			ZWrite On
+			ZWrite Off
 			CGPROGRAM
 			
 			#pragma vertex vert
